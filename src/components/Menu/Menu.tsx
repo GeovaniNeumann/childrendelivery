@@ -30,8 +30,8 @@ const Menu = () => {
               <div className={styles.info}>
                 <div className={styles.nameRow}>
                   <h3 className={styles.name}>{product.name}</h3>
-                  {product.badge && (
-                    <span className={styles.badge}>{product.badge}</span>
+                  {product.tag && (
+                    <span className={styles.badge}>{product.tag}</span>
                   )}
                 </div>
 

@@ -79,12 +79,12 @@
   min-width: 0;
 }
 
+/* NOVA CLASSE: nameRow - para alinhar nome e badge */
 .nameRow {
   display: flex;
   align-items: center;
-  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 6px;
+  gap: 8px;
 }
 
 .name {
@@ -93,16 +93,29 @@
   color: var(--cream);
 }
 
+/* NOVA CLASSE: badge - para estilizar os tags dos produtos */
 .badge {
-  font-size: 0.62rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--coal);
+  display: inline-block;
   background: var(--gold);
-  padding: 3px 9px;
+  color: var(--coal);
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 3px 12px;
   border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   white-space: nowrap;
+  line-height: 1.5;
+}
+
+.tagline {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: 2px;
+  margin-bottom: 8px;
 }
 
 .description {
