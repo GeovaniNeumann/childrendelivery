@@ -1,5 +1,5 @@
 import styles from "./DeliveryArea.module.css";
-import { buildWhatsAppLink, PHONE_DISPLAY } from "../../lib/whatsapp";
+import { PHONE_DISPLAY } from "../../lib/whatsapp";
 
 const DeliveryArea = () => {
   return (
@@ -23,21 +23,13 @@ const DeliveryArea = () => {
               <span>Telefone / WhatsApp</span>
               <strong>{PHONE_DISPLAY}</strong>
             </div>
-            <a
-              href={buildWhatsAppLink()}
-              target="_blank"
-              rel="noreferrer"
-              className={styles.cta}
-            >
-              Confirmar minha entrega
-            </a>
           </div>
         </div>
 
         <div className={styles.figure}>
           <img
-            src="/images/logo.webp"
-            alt="Hamburguer Rei do Sertao da Children of Faith Burgers"
+            src="/images/entrega.webp"
+            alt="Entrega de hamburguer Children of Faith Burgers"
             loading="lazy"
           />
         </div>

@@ -13,8 +13,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Menu />
         <About />
+        <Menu />
         <HowItWorks />
         <DeliveryArea />
       </main>

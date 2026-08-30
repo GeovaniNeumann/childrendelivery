@@ -3,10 +3,11 @@ import styles from "./Header.module.css";
 import { buildWhatsAppLink } from "../../lib/whatsapp";
 
 const NAV_LINKS = [
+  { href: "#topo", label: "Inicio" },
+  { href: "#historia", label: "Sobre" },
   { href: "#cardapio", label: "Cardapio" },
-  { href: "#historia", label: "Nossa historia" },
-  { href: "#como-funciona", label: "Como pedir" },
-  { href: "#area", label: "Entregamos aqui" },
+  { href: "#como-funciona", label: "Pedidos" },
+  { href: "#contato", label: "Contato" },
 ];
 
 const Header = () => {

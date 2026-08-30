@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className={styles.footer}>
+    <footer id="contato" className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.top}>
           <a href="#topo" className={styles.brand}>
